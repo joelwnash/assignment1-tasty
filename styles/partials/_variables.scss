@@ -1,0 +1,18 @@
+$accentColor: #fdc800;
+$blackShade: #232323;
+$backgroundColor: #eaedf4;
+$whiteShade: #f8f8f8;
+
+@mixin greatVibes($sizeValue) {
+    font-family: 'Great Vibes', cursive;
+    font-size: $sizeValue;
+    color: $blackShade;
+    font-weight: 400;
+}
+
+@mixin cabinBold($sizeValue) {
+    font-family: 'Cabin', sans-serif;
+    font-size: $sizeValue;
+    font-weight: 700;
+    color: $blackShade;
+}
